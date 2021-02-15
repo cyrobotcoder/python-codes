@@ -1,4 +1,4 @@
-# this is my first online contribution 
+# this is my first online contribution in github
 class Bank:
     def __init__(self):
         self.client_details_list = []
