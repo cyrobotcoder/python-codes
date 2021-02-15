@@ -1,3 +1,4 @@
+# this is my first online contribution 
 class Bank:
     def __init__(self):
         self.client_details_list = []
@@ -133,9 +134,9 @@ if __name__ == "__main__":
                     print("\n1.back menu")
                     print("2.Logout")
                     choose = int(input())
-                    if choose == 1:
+                    if choose==1:
                         continue
-                    elif choose == 2:
+                    elif choose==2:
                         break
                 
                 elif login_user == 2:
@@ -143,9 +144,9 @@ if __name__ == "__main__":
                     print("\n1.back menu")
                     print("2.Logout")
                     choose = int(input())
-                    if choose == 1:
+                    if choose==1:
                         continue
-                    elif choose == 2:
+                    elif choose==2:
                         break
 
                 elif login_user == 3:
