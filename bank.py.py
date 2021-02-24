@@ -3,7 +3,7 @@ import sys
 def heading():
     m=open("bank.csv","a",newline='')
     w=csv.writer(m)
-    l={n:["ACCOUNT NO","NAME","BALANCE","AGE"]}
+    l={["ACCOUNT NO","NAME","BALANCE","AGE"]}
     w.writerow(l)
     m.close()
 def data():
@@ -17,7 +17,7 @@ def data():
         n=input("Enter the name")
         b=int(input("enter balance"))
         c=int(input("age"))
-        l={n:[a,n,b,c]}
+        l={[a,n,b,c]}
         w.writerow(l)
     m.close()
 def display():
